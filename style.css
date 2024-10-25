@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+.logo {
+  padding: 10px;
+}
+
+
+
+.navigation {
+  display: flex;
+  padding: 10px 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #EAE8F3;
+}
+
+.navigation a {
+  color: black;
+}
+.btns{
+    display: flex;
+}
+.links{
+    display: flex;
+    gap: 50px;
+}
+
+.Signup {
+  border: 1px solid;
+}
+
+.Signup a {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #212121;
+  color: #ffffff;
+}
+
+.Login {
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-content: end;
+  padding: 10px 20px;
+}
+  
+.h1 {
+    font-size: 120px;
+    padding-left: 50px;
+}
+
+hr{
+    width: 50%;
+    margin-top: 40px;
+ margin-left: 10px;
+ height: 4px;
+ background-color: #212121;
+}
+
+p {
+    padding-left: 34px;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ .banner {
+    display: flex;
+    justify-content: space-between;
+ }
+.right {
+display:flex;
+flex-direction: column;
+justify-content: right;
+}
+
+.right, .left {
+ max-width: 49%;
+}
+
+.arrow {
+    padding-left: 30px;
+
+}
+
+.words, .puzzle {
+    padding-left: 30px;
+    padding-right: 10px;
+} 
+
+.partnership {
+    display: grid;
+    padding-top: 30px;
+} 
+
+.ox, .number {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.product {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+@media (max-width:1200px;) {
+  .banner {
+    border-color: 2px solid gray;
+    background-color: blue;
+  }
+}
